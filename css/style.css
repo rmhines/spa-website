@@ -1,0 +1,171 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+	background: url("../img/feetCompressed.jpg");
+	background-attachment: fixed;
+	background-position: center;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	background-repeat: no-repeat;
+}
+
+a {
+	color: #19A3FF;
+}
+
+#home {
+	
+}
+
+nav {
+	width: 960px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-color:rgba(0,0,0,0.8);
+}
+
+nav img {
+	position: relative;
+	height: 80px;
+	float: left;
+	margin-top: 11px;
+	margin-left: 15px;
+}
+
+nav button {
+	height: 60px;
+	width: 100px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: -3px;
+	border: none;
+	float: right;
+	background-color: #AA0000;
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 700;
+	color: white;
+	font-size: 1em;
+}
+
+nav button:hover {
+    background-color: #770000;
+}
+
+main {
+	width: 960px;
+	height: 3400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-color:rgba(0,0,0,0.8);
+	color: white;
+}
+
+main h1 {
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 700;
+	font-size: 2em;
+	padding-top: 40px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 30px;
+}
+
+main h2 {
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	padding-top: 40px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 25px;
+}
+
+main h3 {
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-top: 30px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 5px;
+}
+
+main p {
+	font-family: 'Arimo', sans-serif;
+	padding-right: 100px;
+	padding-left: 100px;
+	line-height: 25px;
+	font-size: 1.1em;
+}
+
+
+
+main hr {
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	display: block;
+	height: 1px;
+    border: 0;
+    border-top: 2px solid #AA0000;
+    padding: 0;
+}
+
+#gallery, #map {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	display: block;
+}
+
+main button {
+	height: 60px;
+	width: 100px;
+	margin-top: 60px;
+	margin-left: 100px;
+	border: none;
+	float: left;
+	background-color: #AA0000;
+	font-family: 'Playfair Display SC', serif;
+	font-weight: 700;
+	color: white;
+	font-size: 1em;
+}
+
+main button:hover {
+    background-color: #770000;
+}
+
+footer {
+	width: 960px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color:rgba(0,0,0,0.8);
+	color: #555555;
+}
+
+footer p {
+	font-family: 'Arimo', sans-serif;
+	padding-right: 100px;
+	padding-left: 100px;
+	margin-top: 36px;
+	line-height: 25px;
+	font-size: 1em;
+	float: right;
+}
